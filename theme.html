@@ -175,7 +175,12 @@
 
           <div class="post">
             <h1>{{ link.title }}</h1>
-            <p class="muted">Posted on {{ link.created_at|format_date }}</p>
+            <p class="muted">
+              {% if post.author %}
+                <span class="post-author-name">{{ post.author.name }}</span>
+              {% endif %}
+              <span class="post-date">Posted on {{ link.created_at|format_date }}</span>
+            </p>
             <div class="post-content" data-type-cleanup="true">
               {{ link.content }}
             </div>
