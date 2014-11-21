@@ -494,6 +494,9 @@ h6 {
   font-size: 12px;
   color: #666666;
 }
+.bio ul li a {
+  color : #293e6a;
+}
 .bio img.avatar {
   position: absolute;
   top: -33px;
