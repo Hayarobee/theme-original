@@ -180,10 +180,10 @@ body {
   font-family: 'Nanum Gothic', serif;
 }
 a {
-  color: #293e6a;
+  color: #b6a754;
 }
 a:visited {
-  color: #293e6a;
+  color: #b6a754;
 }
 a:active {
   color: #d84c30;
@@ -473,7 +473,7 @@ h6 {
   display: block;
 }
 .post-author p span.post-date {
-  color: #293e6a;
+  color: #b6a754;
   font-family: 'Nanum Gothic', serif;
   font-weight: 300;
   font-size: 0.85rem;
@@ -482,12 +482,12 @@ h6 {
   font-size: 0.85rem;
   font-family: 'Nanum Gothic', serif;
   font-weight: 400;
-  color: #293e6a;
+  color: #b6a754;
 }
 .bio {
   position: relative;
   background-color: #F5F5F5;
-  border-top: 2px solid #2eb18d;
+  border-top: 2px solid #293e6a;
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 50px 30px 30px 30px;
