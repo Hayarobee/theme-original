@@ -438,6 +438,49 @@ h6 {
 .post ol li {
   line-height: 24px;
 }
+.post-author {
+  cursor: default;
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.post-author img {
+  display: block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.post-author img img {
+  width: 45px;
+  height: 45px;
+}
+.post-author p {
+  float: left;
+  font-size: 0.85rem;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+.post-author p span {
+  font-weight: bold;
+  display: block;
+}
+.post-author p span.post-date {
+  color: #afb7b5;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+.post-author p span.post-author-name {
+  font-size: 0.85rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #37cca2;
+}
 .bio {
   position: relative;
   background-color: #F5F5F5;
