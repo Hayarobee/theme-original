@@ -94,6 +94,9 @@
           <div class="row post">
             <div class="span6">
               <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+              <div class="post-content" data-type-cleanup="true">
+                {{ post.content }}
+              </div>
               <a class="post-author" href="{{ site.base_url }}">
                 {% if post.author %}
                 <img src="{{ post.author.avatar }}" />
@@ -105,9 +108,6 @@
                   <span class="post-date">Posted on {{ post.created_at|format_date }}</span>
                 </p>
               </a>            
-            </div>
-            <div class="post-content" data-type-cleanup="true">
-              {{ post.content }}
             </div>
           </div>
           <hr />
