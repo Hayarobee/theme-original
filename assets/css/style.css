@@ -180,10 +180,10 @@ body {
   font-family: 'Nanum Gothic', serif;
 }
 a {
-  color: #b6a754;
+  color: #517398;
 }
 a:visited {
-  color: #b6a754;
+  color: #517398;
 }
 a:active {
   color: #d84c30;
@@ -202,7 +202,7 @@ p {
 .navbar-inner {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #3b5998;
+  background-color: #262c3a;
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
@@ -473,7 +473,7 @@ h6 {
   display: block;
 }
 .post-author p span.post-date {
-  color: #293e6a;
+  color: #ff606e;
   font-family: 'Nanum Gothic', serif;
   font-weight: 300;
   font-size: 0.85rem;
@@ -487,7 +487,7 @@ h6 {
 .bio {
   position: relative;
   background-color: #F5F5F5;
-  border-top: 2px solid #293e6a;
+  border-top: 2px solid #ff606e;
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 50px 30px 30px 30px;
@@ -495,7 +495,7 @@ h6 {
   color: #666666;
 }
 .bio ul li a {
-  color : #293e6a;
+  color : #ff606e;
 }
 .bio img.avatar {
   position: absolute;
@@ -523,7 +523,7 @@ ul.tags {
   line-height: 22px;
 }
 ul.tags a {
-  color: #293e6a;
+  color: #ff606e;
 }
 ul.tags li {
   list-style-type: none;
