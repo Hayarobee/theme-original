@@ -130,6 +130,9 @@
 
           <div class="post">
             <h1>{{ post.title }}</h1>
+            {% if post.author %}
+              <img src="{{ post.author.avatar }}" />
+            {% endif %}
             <p>
               {% if post.author %}
                 <span class="post-author-name">{{ post.author.name }}</span>
@@ -176,6 +179,9 @@
 
           <div class="post">
             <h1>{{ link.title }}</h1>
+            {% if post.author %}
+              <img src="{{ post.author.avatar }}" />
+            {% endif %}
             <p>
               {% if post.author %}
                 <span class="post-author-name">{{ post.author.name }}</span>
