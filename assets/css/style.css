@@ -519,6 +519,9 @@ ul.tags {
   font-size: 12px;
   line-height: 22px;
 }
+ul.tags a {
+  color: #293e6a;
+}
 ul.tags li {
   list-style-type: none;
   display: inline-block;
