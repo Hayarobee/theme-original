@@ -175,7 +175,7 @@
 /* IE7 */
 /* used for styling post content in themes */
 body {
-  font-family: 'Open Sans', helvetica, sans-serif;
+  font-family: 'Hanna', helvetica, sans-serif;
 }
 a {
   color: #2eb18d;
@@ -472,13 +472,13 @@ h6 {
 }
 .post-author p span.post-date {
   color: #afb7b5;
-  font-family: 'Roboto';
+  font-family: 'Hanna';
   font-weight: 300;
   font-size: 0.85rem;
 }
 .post-author p span.post-author-name {
   font-size: 0.85rem;
-  font-family: 'Roboto';
+  font-family: 'Hanna';
   font-weight: 400;
   color: #37cca2;
 }
