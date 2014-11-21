@@ -434,9 +434,6 @@ h6 {
   font-size: 14px;
   line-height: 45px;
 }
-.post p span.post-author-name {
-  color: #517398;
-}
 .post ul,
 .post ol {
   margin-left: 40px;
@@ -473,14 +470,17 @@ img.post-author {
   padding: 0 0 0 20px;
   margin: 0;
 }
-.post-author p span {
+.post p span.post-author-name {
+  color: #517398;
   font-weight: bold;
+  font-style: italic;
   display: block;
 }
 .post-author p span.post-date {
   color: #262c3a;
   font-family: 'Nanum Gothic', serif;
   font-weight: 300;
+  font-style: italic;
   font-size: 0.85rem;
 }
 .post-author p span.post-author-name {
