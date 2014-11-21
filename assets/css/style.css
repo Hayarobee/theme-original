@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300);
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap.min.css);
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap-responsive.min.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 /**
  * Utilities
  * Mixins used throughout themes and the main site
@@ -175,7 +177,7 @@
 /* IE7 */
 /* used for styling post content in themes */
 body {
-  font-family: 'Hanna', serif;
+  font-family: 'Nanum Gothic', serif;
 }
 a {
   color: #2eb18d;
@@ -472,13 +474,13 @@ h6 {
 }
 .post-author p span.post-date {
   color: #afb7b5;
-  font-family: 'Hanna';
+  font-family: 'Nanum Gothic', serif;
   font-weight: 300;
   font-size: 0.85rem;
 }
 .post-author p span.post-author-name {
   font-size: 0.85rem;
-  font-family: 'Hanna';
+  font-family: 'Nanum Gothic', serif;
   font-weight: 400;
   color: #37cca2;
 }
