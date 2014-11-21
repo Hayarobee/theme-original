@@ -563,6 +563,10 @@ ul.tags li {
 ul.social li a:hover {
   text-decoration: none;
 }
+.row div.footer {
+margin-left: 0px;
+width: 100%;
+}
 footer {
   background-color: #F5F5F5;
   margin-top: 40px;
