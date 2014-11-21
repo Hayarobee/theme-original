@@ -473,7 +473,7 @@ h6 {
   display: block;
 }
 .post-author p span.post-date {
-  color: #ff606e;
+  color: #262c3a;
   font-family: 'Nanum Gothic', serif;
   font-weight: 300;
   font-size: 0.85rem;
@@ -523,7 +523,7 @@ ul.tags {
   line-height: 22px;
 }
 ul.tags a {
-  color: #ff606e;
+  color: #262c3a;
 }
 ul.tags li {
   list-style-type: none;
