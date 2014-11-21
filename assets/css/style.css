@@ -452,7 +452,7 @@ h6 {
   float: left;
   text-align: left;
 }
-img.post-author {
+.post img.post-author {
   display: block;
   float: left;
   width: 45px;
