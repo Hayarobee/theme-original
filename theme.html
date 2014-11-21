@@ -101,7 +101,7 @@
                 {% if post.author %}
                 <img src="{{ post.author.avatar }}" />
                 {% endif %}
-                <p class="muted">
+                <p>
                 {% if post.author %}
                   <span class="post-author-name">{{ post.author.name }}</span>
                 {% endif %}
@@ -130,7 +130,7 @@
 
           <div class="post">
             <h1>{{ post.title }}</h1>
-            <p class="muted">
+            <p>
               {% if post.author %}
                 <span class="post-author-name">{{ post.author.name }}</span>
               {% endif %}
@@ -176,7 +176,7 @@
 
           <div class="post">
             <h1>{{ link.title }}</h1>
-            <p class="muted">
+            <p>
               {% if post.author %}
                 <span class="post-author-name">{{ post.author.name }}</span>
               {% endif %}
