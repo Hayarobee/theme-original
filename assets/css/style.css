@@ -461,6 +461,7 @@ img.post-author {
   -moz-border-radius: 50%;
   border-radius: 50%;
   overflow: hidden;
+  margin-right: 15px;
 }
 .post-author img img {
   width: 45px;
